@@ -9,7 +9,7 @@ class App < Sinatra::Base
   post '/team' do
     @team = params.to_s
     
-    erb :team
+    # erb :team
   end
 
 end
